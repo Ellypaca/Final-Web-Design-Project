@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Overview </title>
+  <title> Gallery </title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Federant&display=swap" rel="stylesheet">
@@ -12,27 +12,19 @@
 
   <style>
 
-
-  body{
-    background-image: url('background.png');
-    background-repeat: repeat;
-    background-color: purple;
+  h2{
+    color: rgb(251, 251, 47);
   }
 
-
-  h1{
-    font-size: 40px;
-    font-family: 'Federant';
-	color: rgb(255,198,173);
-
+  .title{
+    border: 5px solid #E4EAF0;
+    background-color: rgba(192,192,192, 0.5);
+    width: 300px;
+    height: auto;
+    margin: auto;
   }
 
-  p{
-	font-size: 30px;
-	font-family: 'Roboto';
-	}
-
-  img{
+  .stuff{
     margin: -370px 0px 0px -5px;
     width: 1200px;
   }
@@ -46,10 +38,7 @@
     margin-top: auto;
     margin-bottom: auto;
   }
-  
-  .current{
-	background-color: 
-  }
+
 
   ul{
     list-style-type: none;
@@ -64,7 +53,6 @@
 	border-right: 3px solid rgb(217,183,247);
 	border-bottom: 3px solid rgb(217,183,247);
 	border-top: 3px solid rgb(217,183,247);
-	
   }
 
   li a:hover{
@@ -77,16 +65,102 @@
     padding: 8px;
   }
 
+  .rosa{
+    width: 300px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  .RosaText{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 580px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .FullGauge{
+    width: 400px;
+    float: right;
+    margin-top: -590px;
+    margin-right: 630px;
+  }
+
+  .FullText{
+    margin-left: 480px;
+    margin-top: -550px;
+  }
+
+  .EmptyGauge{
+    width: 400px;
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+
+  .EmptyText{
+    float: right;
+    margin-right: 675px;
+    margin-top: -5px;
+  }
+
+  .Kukui{
+    width: 250px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -240px;
+  }
+
+  .KukuiText{
+    float: right;
+    margin-top: 330px;
+    margin-right: -270px;
+    width: 280px;
+    text-align: center;
+  }
+
+  .Siebold{
+    float: left;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -200px;
+  }
+
+  .SieboldText{
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin-left: 830px;
+  }
+
+  .Scout{
+    width: 350px;
+    float: left;
+    margin-left: 400px;
+    margin-top: -400px;
+  }
+
+  .ScoutText{
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin-top: 380px;
+    margin-bottom: 500px;
+    margin-right: 100px;
+    margin-left: -300px;
+  }
+
+
+
   </style>
 </head>
 <body>
 
-<div class="container">	
+<div class="container">
 
 	<ul>
 		<li>
 			<div class="logo">
-				<a href="HomeMasters.html"><img src="stuff.png"> </a>
+				<a href="Home.html"><img class="stuff" src="stuff.png"> </a>
 			</div>
 		</li>
 		<li>
@@ -96,16 +170,35 @@
 				<a href="Connections.html"> <h1> Personal Connections </h1> </a>
 		</li>
 		<li>
-				<a class="current" href="Gallery.html"> <h1> Gallery </h1> </a>
+				<a href="Gallery.html"> <h1 class="current"> Gallery </h1> </a>
 		</li>
 	</ul>
 		<div class="">
 
-	<h1> HOME </h1>
-	
+	<h2 style=""> GALLERY  </h1>
 
-	<p> <b> (Filler txt) </b> </p>
 
+
+  <img class="rosa" src="Rosa.jpg">
+  <p class="RosaText"> Flint breaking the Fourth Wall </p>
+
+  <img class="FullGauge" src="FullGauge.jpeg">
+  <p class="FullText"> A full Move Gauge </p>
+
+  <img class="EmptyGauge" src="EmptyGauge.jpeg">
+  <p class="EmptyText"> An empty Move Gauge </p>
+
+  <img class="Siebold" src="Siebold.png">
+  <p class="SieboldText"> Siebold telling me to go to sleep</p>
+
+
+  <img class="Kukui" src="Kukui.png">
+  <p class="KukuiText"> Professor Kukui in the Pokemon Center petting his Midday Form Lycanroc</p>
+
+  <video controls width="200" class="Scout">
+      <source src="Scout.mp4" type="video/mp4">
+  </video>
+  <p class="ScoutText"> How the Sync Pair Scout works </p>
 
 
 
