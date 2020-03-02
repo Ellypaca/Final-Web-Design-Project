@@ -1,0 +1,47 @@
+body{
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-color: purple;
+}
+
+h1, h2, h3{
+  font-family: 'Federant';
+
+}
+
+h1{
+  font-size: 40px;
+  color: rgb(249,148,105);
+}
+
+h2{
+  font-size: 70px;
+  text-align: center;
+}
+
+p{
+font-size: 30px;
+font-family: 'Roboto';
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  width: 275px;
+  height: 160px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-left: 3px solid rgb(217,183,247);
+}
+
+.current{
+  background-color: rgb(249,148,105);
+  color: rgb(0, 240, 180);
+  padding-left: 4px;
+  padding-right: 4px;
+}
