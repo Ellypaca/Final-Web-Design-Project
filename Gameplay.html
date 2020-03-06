@@ -157,6 +157,68 @@
     border-radius: 60px;
   }
 
+  .StrikeVideo{
+    float: right;
+    margin-top: 1175px;
+    margin-bottom: 500px;
+    margin-right: -220px;
+    border-radius: 30px;
+    border: 10px solid rgba(22, 132, 229, 0.5);
+  }
+
+  .Table{
+  			background-color: rgba(0, 40, 255, 0.4) ;
+  			border:			  2px solid black;
+  			padding: 		  20px;
+  			position:         absolute;
+  			width:            500px;
+        overflow: auto;
+        margin: 450px;
+        margin-top: 50px;
+  		}
+
+  table, th, td{
+  			border-bottom: 2px solid black;
+  			text-align: center;
+  			}
+
+  table{
+  			border-collapse: collapse;
+  			width: 400px;
+  			margin: auto;
+  			}
+
+  th, td{
+  				padding: 10px;
+  			}
+
+  tr:nth-child(even){
+  		background-color: aquamarine;
+  	}
+
+  tr:nth-child(odd){
+  		background-color: rgb(229, 243, 248);
+  	}
+
+  td:hover{
+  	background-color: #3b4cca;
+  	color: white;
+  }
+
+  th{
+  	background-color: turquoise;
+  	color: white;
+  		}
+
+
+  .Tabletxt{
+    color: darkgrey;
+    margin-left: 490px;
+    margin-top: 430px;
+    width: 450px;
+    text-align: center;
+  }
+
   </style>
 </head>
 <body>
@@ -184,6 +246,7 @@
 	<h2 style=" color: blue;"> GAMEPLAY  </h1>
 
     <h4> The gameplay of Pokemon Masters is quite different from the main games in the Pokemon Series in a few different ways: </h4>
+    <div class="txt1">
       <ol>
         <li> This game features a 3v3 style gameplay, and in some very rare cases, 1v1.</li>
         <li> Instead of catching Pokemon, you instead use your Poryphone (it acts like a menu) to "Scout" Trainers and their Pokemon,
@@ -199,6 +262,7 @@
           Moves can cause more damage under a certain condition, and some can even chang the form and moves of the Pokemon! You can use a Sync Move
           when its countdown disappears by tapping the icon in the center of your attack box.</li>
       </ol>
+    </div>
 
 
 	<h3> <b> Different Sync Pairs Have Different Roles: </b> </h3>
@@ -210,6 +274,12 @@
     <video controls width="200" class="SupportVideo">
         <source src="Support.mp4" type="video/mp4">
     </video>
+
+
+    <video controls width="200" class="StrikeVideo">
+        <source src="Strike.mp4" type="video/mp4">
+    </video>
+
 
       <ul>
         <li class="Tech">
@@ -244,11 +314,37 @@
           Strike-
           <span style="font-family: 'Roboto'; font-size: 30px;">
             As they all say, save the best for last! Strike Sync Pairs are always in the spotlight of any good team, as they are
-          the damaging powerhouses that pack a huge punch. Sure stat boosts for your team and status conditions on the opponents
-          are great, but the only way you can win a battle is by taking out the opponents through brute force. They can boost their
-          own stats to be de
+          the damaging powerhouses that pack a huge punch. Sure, stat boosts for your team and status conditions on the opponents
+          are great, but the only way you can win a battle is by taking out the opponents through brute force. There are two types of Strike
+          Sync Pairs: Physical and Special. The only difference is that one uses Physical attacks, and one uses Special attacks. They can boost their
+          own stats to be almost maxed out. Notice how much more damage the Stike Sync pair (Iris and Haxorous) does compared to the
+          Support (Lyra and Meganium), and the Tech (Flannery and Torkoal).
+        </span>
 
      </ul>
+
+     <div class="Table">
+        <table>
+       <tr>
+         <th> Sync Pair </th>                      <th> Type </th>             <th> HP</th> <th> Attack  </th> <th>Defense </th>  <th> Sp. Atk</th> <th>Sp. Def </th> <th> Speed</th>
+       </tr>
+       <tr>
+         <td><b> Brendan and Sceptile </b> </td>   <td>Physical Striker </td> <td> 513</td>  <td>358 </td>    <td>145 </td>      <td>379 </td>      <td>145 </td>     <td>421</td>
+       </tr>
+       <tr>
+         <td><b>Karen and Houndoom </b></td>	    <td>Special Striker </td>   <td>516 </td>     <td>304 </td>	   <td>157 </td>     <td>346 </td>      <td>157 </td>     <td>328 </td>
+       </tr>
+       <tr>
+         <td><b> Rosa and Serperior </b></td>	     <td>Support</td>            <td> 659 </td>   <td>87 </td>    <td> 192 </td>    <td>112 </td>      <td> 252 </td>    <td>178 </td>
+       </tr>
+       <tr>
+         <td><b>Koga and Crobat</b></td>          <td>Tech</td>              <td>474 </td>      <td>283 </td>   <td>145 </td>     <td>283 </td>       <td>182 </td>    <td>385 </td>
+       </tr>
+     </table>
+     </div>
+
+     <h4 class="Tabletxt">See how different Sync Pairs' stats are varied </h4>
+
 
 
 
